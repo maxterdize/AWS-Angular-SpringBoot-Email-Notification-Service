@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "newContactTemplate",
+    "SubjectPart": "Bienvenido a los Contactos de Componentes!",
+    "HtmlPart": "<h1>Hola {{name}},</h1><p>te damos la bienvenida a la agenda de contactos de Componentes!</p>",
+    "TextPart": "Hola {{name}},\r\nTe damos la bienvenida a la agenda de contactos de Componentes!"
+  }
+}

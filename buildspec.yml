@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo Starting build phase...
+      - mvn clean compile package
+  post_build:
+    commands:
+      - echo Build completed successfuly !
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: yes
